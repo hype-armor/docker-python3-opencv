@@ -19,6 +19,7 @@ RUN apt-get update \
         libavformat-dev \
         libpq-dev \
         openssh-server \
+        wheel \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install numpy
